@@ -1,0 +1,57 @@
+.button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-radius: 999px;
+  border: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.button .text {
+  z-index: 2;
+  transition: all 300ms ease-in-out;
+}
+
+.button:hover .text {
+  color: white;
+  transform: translateX(-1.5rem);
+}
+
+.button .dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: black;
+  border-radius: 50%;
+  transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.button:hover .dot {
+  transform: scale(40);
+  background-color: blue;
+  z-index: 1;
+}
+
+.button .arrow {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  right: 0.5rem;
+  z-index: 2;
+  transition: all 400ms ease-in-out;
+}
+
+.button:hover .arrow {
+  transform: translateX(-1rem);
+}
+
+.button:hover .arrow path {
+  fill: white;
+}
