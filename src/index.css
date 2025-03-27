@@ -11,4 +11,14 @@ html,
 body {
   height: 100%;
   overflow: hidden;
+  background-color: #bcbcbc;
+}
+
+main {
+  width: 100svw;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
