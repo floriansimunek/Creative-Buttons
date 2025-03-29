@@ -4,7 +4,7 @@ A showcase of modern button interactions using React and CSS. This collection fe
 
 ![Demonstration gif](gif.gif)
 
-[Live Demo](https://floriansimunek.com/projects/creativebuttons) | [Github Repository](https://github.com/floriansimunek/Creative-Buttons) | [Inspiration 1](https://timestwo.design)| [Inspiration 2](https://hello.cuberto.com/) | [Inspiration 3](https://lusion.co/)
+[Live Demo](https://floriansimunek.com/projects/creativebuttons) | [Github Repository](https://github.com/floriansimunek/Creative-Buttons) | [Inspiration 1](https://timestwo.design) | [Inspiration 2](https://hello.cuberto.com/) | [Inspiration 3](https://lusion.co/)
 
 ## Features
 
